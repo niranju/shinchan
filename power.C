@@ -10,7 +10,6 @@ int main()
     while (exponent != 0)
     {
         result *= base;
-        --exponent;
     }
     printf("Answer = %lld", result);
     return 0;
