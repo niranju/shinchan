@@ -3,12 +3,12 @@
 void main()
 {
 char s[200];
-int count = 0, i;
+int count = 0, j;
 printf("enter the string\n");
 scanf("%[^\n]s", s);
-for (i = 0;s[i] != '\0';i++)
+for (j = 0;s[j] != '\0';j++)
 {
-if (s[i] == ' ')
+if (s[j] == ' ')
 count++;    
 }
 printf("number of words in given string are: %d\n", count + 1);
