@@ -6,11 +6,11 @@ printf("enter the number:");
 scanf("%d",&n);
 if(n%13==0)
 {
-printf("yes");
+printf("yes it is multiple of 13");
 }
 else
 {
-printf("no");
+printf("no it is not a multiple of 13");
 }
 return 0;
 }
