@@ -2,8 +2,8 @@
 
 int main(void) 
 {
-	int n,k;
-	scanf("%d %d",&n,&k);
-	printf("%d%d",n,k);
+	int a,b;
+	scanf("%d %d",&a,&b);
+	printf("%d%d",a,b);
 	return 0;
 }
