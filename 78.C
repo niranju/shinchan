@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int num;
+int n;
 printf("enter the number:");
-scanf("%d",&num);
-if(num%13==0)
+scanf("%d",&n);
+if(n%13==0)
 {
 printf("yes");
 }
