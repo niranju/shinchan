@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	char ch;
+	char c;
 	printf("\n enter the character:");
-	scanf("%c",&ch);
-	printf("\n ascii value is:%d",ch);
+	scanf("%c",&c);
+	printf("\n ascii value of given character is:%d",c);
 	return 0;
 }
