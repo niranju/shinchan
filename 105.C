@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int n,i=64;
-printf("enter the number\n");
-scanf("%d",&n);
-printf("%c",n+i);
+int a,i=64;
+printf("enter the number for which the alphabet to be display\n");
+scanf("%d",&a);
+printf("%c",a+i);
 return 0;
 }
